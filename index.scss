@@ -1,0 +1,37 @@
+// Common border color style
+// @var color
+$border-color: #b9b9b9;
+// 979797
+
+// nib green.
+// Used in links as well.
+// @var color
+$dark-green: #1f7c07;
+$green: lighten($dark-green, 10%);
+
+// Lighter nib green
+// @var color
+$light-green: #79Be10;
+
+$blue         : #007EAC;
+$light-blue   : #00ABCC;
+
+$lightest-grey : #f9f9f9;
+$lighter-grey  : #eee;
+$light-grey    : #999;
+$grey        : #666;
+$dark-grey     : #444;
+
+$orange       : #FE9C00;
+$purple       : #7E3E97;
+$dark-purple  : darken($purple, 10%);
+$red         : rgb(169, 0, 0);
+$yellow       : #FDD918;
+
+$error-color: $red;
+$error-dark-color: darken($red, 10%);
+$error-border-color: $error-color;
+$error-background-color: lighten($error-color, 60%);
+
+$link-color: $dark-green;
+$extras-color: $purple;
