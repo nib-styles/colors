@@ -1,6 +1,5 @@
 {
-  "name": "callback",
-  "main": "index.scss",
-  "version": "0.1.0",
-  "styles": ["index.scss"]
+  "name": "colors",
+  "version": "0.1.1",
+  "files": ["index.scss"]
 }
