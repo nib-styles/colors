@@ -1,8 +1,10 @@
 # @nib-styles/colors
 
-A handful of pure colour variables for the most used colours at nib. See the [nib-pattern-library](https://nib-pattern-library.firebaseapp.com/pages/colours.html) for colours.
+A handful of colour variables for the most commonly used colours at nib.
 
-All colours are prefixed with `color-` to prevent potential name conflicts, and for easier editor auto completion.
+> Colours are prefixed with `$color-` to prevent potential name conflicts, and for easier editor auto completion.
+
+> This repo is not for defining application-specific variables (e.g. `$border-color: $color-bashful;`)
 
 ## Installation
 
@@ -10,18 +12,16 @@ All colours are prefixed with `color-` to prevent potential name conflicts, and 
 
 ## Usage
 
-    @import "@nib-styles/colors";
-    
-    .box {
-      background-color: $color-sneezy;
-      color: $color-prince-charles;
-    }
+```scss
+@import "@nib-styles/colors";
 
-### NB:
+.box {
+  color: $color-prince-charles;
+  background-color: $color-sneezy;
+}
+```
 
-This repo is not for defining application-specific variables (i.e. `$border-color: $color-bashful;`)
+## Change log
 
-
-## Changelog
-
-- 1.0.0 Breaking change, fresh start with our current colours
+### 1.0.0
+- break: fresh start from our legacy colours
