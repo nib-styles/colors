@@ -1,4 +1,4 @@
-export default colors = {
+const colors = {
 
   //greens
   'elizabeth': '#009623',
@@ -26,3 +26,5 @@ export default colors = {
   bashful: '#222222'
 
 };
+
+export default colors;

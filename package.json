@@ -1,6 +1,6 @@
 {
   "name": "@nib-styles/colors",
-  "version": "2.0.0-preview.2",
+  "version": "2.0.0-preview.3",
   "description": "A handful of colour variables for the most commonly used colours at nib.",
   "repository": {
     "type": "git",
