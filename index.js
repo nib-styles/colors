@@ -1,4 +1,4 @@
-export default const colors = {
+export default colors = {
 
   //greens
   'elizabeth': '#009623',
